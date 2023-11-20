@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Vida Saudável</title>
+
+    <!--Links do Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--Links de fontes - Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&display=swap" rel="stylesheet"/>
+
+    <!--Links de CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsivo.css">
+    
+  </head>
+  
+  <body>
+    
+    <!--Modal Bem Vindo-->
+    <div class="modal" id="bem-vindo">
+      <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+              <h1>Bem Vindo(a)</h1>
+              <p>Aproveite o conteúdo! Ele foi pensado para trazer informações atualizadas e que podem te ajudar a criar hábitos mais saudáveis. 😉🚀</p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+    <header id="home">
+      <nav>
+        <ul class="botoes" #botoes-cor>
+          <li>
+            <button class="botao selecionado">
+              <img src="imagens/botao-home.png" alt="Botao Home" />
+            </button>
+          </li>
+          <a href="imc.html">
+          <li>
+            <button class="botao">
+              <img src="imagens/botao-calculadora.png" alt="Calculadora IMC" />
+            </button>
+          </li>
+          </a>
+          <a href="habitos.html">
+            <li>
+              <button class="botao">
+                <img
+                  src="imagens/botao-exercicios.png" alt="Página de Exercícios"/>
+              </button>
+            </li>
+          </a>
+          <a href="doencas.html">
+            <li>
+              <button class="botao">
+                <img src="imagens/botao-saude.png" alt="Página de Saúde" />
+              </button>
+            </li>
+          </a>
+          <a href="sono.html">
+            <li>
+              <button class="botao">
+                <img src="imagens/botao-sono.png" alt="Página de Sono" />
+              </button>
+            </li>
+          </a>
+          <a href="info.html">
+            <li>
+              <button class="botao">
+                <img src="imagens/botao-informacoes.png" alt="Botao Informações"/>
+              </button>
+            </li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+
+    <h1 class="titulo">Vida Saudável</h1>
+
+    <section class="principal-saude">
+      <div class="conteudo-vida-saude">
+        <p>
+          "Hey, galera saudável! Quem aí está a fim de dar um upgrade na sua
+          vida e se sentir cheio de energia? Não precisa se tornar um atleta de
+          alta performance, mas cuidar da saúde é sempre uma boa ideia. <br />
+          Sabe aquele ditado "mente sã, corpo são"? Ele tá mais certo do que
+          nunca! Pensa na vida saudável como um combo: movimente o corpo, coma
+          coisas que façam bem e cuide da cabeça. <br />
+          Começando pela parte divertida, vamos falar de comida! Nada de
+          radicalismos, tá? Ninguém aguenta uma dieta maluca. Equilíbrio é a
+          palavra chave. Inclua suas frutas e legumes preferidos, mas também
+          permita-se umas guloseimas de vez em quando. <br />
+          E o exercício? Nada de virar atleta de um dia pro outro. Comece
+          devagar, escolha uma atividade que te faça sorrir, pode ser dança,
+          caminhada, o que você curtir! O importante é se mexer. <br />
+          E a cabeça? Ah, essa é a parte mais importante! Reserve um tempinho
+          pra relaxar, meditar, ler um bom livro, ou simplesmente jogar conversa
+          fora com amigos. Cuidar da mente é essencial. <br />
+          Vida saudável é como uma festa eterna do bem-estar. Então, bora dançar
+          nessa pista e aproveitar o máximo que a vida tem a oferecer!" 😄🤸‍♀️🍉💤
+        </p>
+      </div>
+
+      <!--Retirado do Bootstrap - Componentes > Carousel-->
+      <div id="carrossel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carrossel" data-slide-to="0" class="active"></li>
+          <li data-target="#carrossel" data-slide-to="1"></li>
+          <li data-target="#carrossel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a
+              href="https://www.youtube.com/watch?v=G_JHl4blTgI"
+              target="_blank"
+              rel="external"
+              ><img
+                class="d-block w-100"
+                src="imagens/exercicios.png"
+                alt="Pessoas fazendo Exercicios"
+            /></a>
+          </div>
+          <div class="carousel-item">
+            <a
+              href="https://open.spotify.com/episode/0RAZMfLwZpq01SPmxCn4PJ?si=kkgImZfxR9y0yAQ3uEylDA"
+              target="_blank"
+              rel="external"
+              ><img
+                class="d-block w-100"
+                src="imagens/yoga.png"
+                alt="Pessoa fazendo Yoga"
+            /></a>
+          </div>
+          <div class="carousel-item">
+            <a
+              href="https://www.youtube.com/watch?v=wi41FLghjvQ"
+              target="_blank"
+              rel="external"
+              ><img
+                class="d-block w-100"
+                src="imagens/saudavel.png"
+                alt="bowl de frutas com um pote de mel ao"
+            /></a>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carrossel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carrossel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    </section>
+
+    <!--Barra de navegação-->
+
+    <!--scripts tbm do Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <script>
+      $('#bem-vindo').modal('show');
+    </script>
+  </body>
+</html>
