@@ -1,0 +1,369 @@
+:root {
+
+    --background-principal: #fefae0;
+
+
+    /* css do titulos */
+    --font-titulo:"Pacifico", sans-serif;
+    --tamanho-titulo: 3em;
+    --cor-titulo: #bc6c25;
+    --sombra-texto: 0.1em 0.1em rgba(0, 0, 0, 0.11);
+    --margin-titulo-top: 15vh;
+    --font-size: 3em;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: var(--background-principal);
+}
+
+#bem-vindo{
+    font-family: "Popins", sans-serif;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    margin: 0px;
+    height: 200px;
+    width: 100%;
+    background-color: #fefae0;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.247);
+}
+
+#home{
+    background-image: url('../imagens/home.png');
+}
+#imc{
+    background-image: url('../imagens/IMC.png');
+}
+#habitos{
+    background-image: url('../imagens/exercicios.png');
+}
+#doencas{
+    background-image: url('../imagens/saude.jpg');
+}
+#sono{
+    background-image: url('../imagens/sono.png');
+}
+#infos{
+    background-image: url('../imagens/infos.png');
+}
+
+h1 {
+    font-family: var(--font-titulo);
+    color: var(--cor-titulo);
+    margin-top: var(--margin-titulo-top) ;
+    font-size:var(--font-size) ;
+    text-shadow:var(--sombra-texto) ;
+    font-weight: 500;
+    text-align: center; 
+}
+
+.principal-saude {
+    display: flex;
+    align-items:flex-start ;
+    justify-content: center;
+}
+
+.conteudo-vida-saude {
+    width: 1000px;
+    text-align: center;
+    text-shadow: #283618;
+    height: 100%;
+    margin: 40px;
+    text-align: justify;
+    columns: 2;
+    font-family: "Popins", sans-serif;
+    text-indent: 2em;
+    line-height: 30px;
+}
+
+#carrossel {
+    padding: 20px;
+    width: 500px;
+}
+
+.principal-imc {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.conteudo-imc {
+    width: 1000px;
+    text-align: center;
+    text-shadow: #283618;
+    height: 100%;
+    margin: 40px;
+    text-align: justify;
+    columns: 2;
+    font-family: "Popins", sans-serif;
+    text-indent: 2em;
+    line-height: 30px;
+}
+
+.imc-calculadora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    height: 240px;
+    width: 220px;
+    border-radius: 5px;
+    background-color: #b9cc7c;
+    border: 1px solid #7c8c46;
+}
+
+.imc-imagem{
+    align-items: center;
+}
+
+.principal-habitos{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.conteudo-habitos{
+    width: 1000px;
+    text-align: center;
+    text-shadow: #283618;
+    height: 100%;
+    margin: 40px;
+    text-align: justify;
+    columns: 2;
+    font-family: "Popins", sans-serif;
+    text-indent: 2em;
+    line-height: 30px;
+}
+
+.principal-doencas {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.conteudo-doencas{
+    width: 1000px;
+    text-align: center;
+    text-shadow: #283618;
+    height: 100%;
+    margin: 40px;
+    text-align: justify;
+    columns: 2;
+    font-family: "Popins", sans-serif;
+    text-indent: 2em;
+    line-height: 30px;
+}
+
+.principal-sono{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+} 
+
+.conteudo-sono {
+    width: 1000px;
+    text-align: center;
+    text-shadow: #283618;
+    height: 100%;
+    margin: 40px;
+    text-align: justify;
+    columns: 2;
+    font-family: "Popins", sans-serif;
+    text-indent: 2em;
+    line-height: 30px;
+}
+
+.video-sono {
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.h1-info{
+    font-family: var(--font-titulo);
+    color: var(--cor-titulo);
+    margin-top: var(--margin-titulo-top) ;
+    font-size:var(--font-size) ;
+    text-shadow:var(--sombra-texto) ;
+    font-weight: 500;
+    text-align: center; 
+}
+.principal-info{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+
+.conteudo-info {
+    width: 1000px;
+    text-align: center;
+    text-shadow: #283618;
+    margin: 50px;
+    text-align: center    ;
+    font-family: "Popins", sans-serif;
+    text-indent: 2em;
+    line-height: 30px;
+    
+}
+
+p:first-letter{
+    font-size: 3em;
+}
+
+.conteudo#video { 
+    width: 320px;
+    height: 200px;
+    margin: 60px;
+    position: absolute;
+    top: 50%;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #283618;
+}
+
+a:hover{
+    background-color: #bc6b258e;
+}
+
+.botoes {
+   position: relative;
+    top: 200px;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    /* min-height:     50vh; */
+    /* width: 150px; */
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #dda25e56;
+    list-style-type: none;
+}
+
+.botoes .botao {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+.botoes .botao img {
+    width: 50px;
+    height: auto;
+    border-radius: 20%;
+}
+
+.botoes .botao.selecionado {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px #3d3d3d9d;
+}
+
+.botoes > a:hover{
+    background-color: transparent;
+}
+
+li {
+    font-family: "Popins", sans-serif;
+    text-align: justify; 
+}
+
+.conteu-saude {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.saude-ul {
+    list-style: none;
+    font-size: 30px;
+    display: flex;
+}
+
+.saude-ul-li{
+    display: flex;
+    flex-direction: row;
+}
+
+.calc{
+    height: 200px;
+}
+
+
+#altura, #peso{
+    height: 30px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid #c7b491;
+    border-radius: 3px;
+    color: #92531b;
+    padding-left: 5px;
+}
+
+#altura:focus, #peso:focus{
+    outline: 1;
+    outline-color: #dd9351;
+}
+
+::placeholder{
+    color: #DEB887;
+}
+
+.calcular{
+    height: 35px;
+    width: 206px;
+    background-color: #bc6c25;
+    border: 1px solid #bc6c25;
+    border-radius: 3px;
+    color: white;
+    font-family: "Popins", sans-serif;
+    font-weight: bold;
+}
+
+.calcular:hover{
+    background-color: #a76021;
+    color: #fefae0;
+}
+
+.calcular:active{
+    margin-top: 1px;
+}
+
+span{
+    color: #283618;
+    font-family: "Popins", sans-serif;
+    font-weight: bold;
+    font-size: 10pt;
+    margin-top: 5px;
+}
+
+label{
+    color: #283618;
+    font-weight: bold;
+}

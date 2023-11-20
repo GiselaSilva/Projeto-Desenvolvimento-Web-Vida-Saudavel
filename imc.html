@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Vida Saudável</title>
+
+    <!--Links de fontes - Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"/>
+
+    <!--Links de CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsivo.css" />
+  </head>
+  
+  <body>
+    <header id="imc">
+      <nav>
+        <ul class="botoes" #botoes-cor>
+          <li>
+            <a href="index.html">
+            <button class="botao ">
+              <img src="imagens/botao-home.png" alt="Botao Home" />
+            </button>
+          </li>
+        </a>
+          <a href="imc.html">
+            <li>
+              <button class="botao selecionado">
+                <img src="imagens/botao-calculadora.png" alt="Calculadora IMC"/>
+              </button>
+            </li>
+          </a>
+          <a href="habitos.html">
+            <li>
+              <button class="botao">
+                <img src="imagens/botao-exercicios.png" alt="Página de Exercícios"/>
+              </button>
+            </li>
+          </a>
+          <a href="doencas.html">
+            <li>
+              <button class="botao">
+                <img src="imagens/botao-saude.png" alt="Página de Saúde" />
+              </button>
+            </li>
+          </a>
+          <a href="sono.html">
+            <li>
+              <button class="botao">
+                <img src="imagens/botao-sono.png" alt="Página de Sono" />
+              </button>
+            </li>
+          </a>
+          <a href="info.html">
+            <li>
+              <button class="botao">
+                <img
+                  src="imagens/botao-informacoes.png"
+                  alt="Botao Informações"
+                />
+              </button>
+            </li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+    <h1 class="titulo">IMC</h1>
+
+    <section class="principal-imc">
+      <div class="conteudo-imc">
+        <p>
+            Além de ser importante levar uma vida com hábitos saudáveis, é extremamente importante cuidar se o seu índice
+            de massa corporal está dentro do estimado para a sua altura.
+            O IMC (assim como traz o artigo da <a href="https://superafarma.com.br/calcule-o-seu-imc-calculadora-peso-ideal/">Supera Farma</a>)
+            é um dos principais fatores a se cuidar quando o quesito é doenças cardíacas, diabetes e pressão alta.
+            Pensando na facilidade para os nossos usuários, disponibilizamos na nossa página uma calculadora de IMC.
+            Você precisa apenas informar a sua altura e o seu peso.
+            <br>
+            <strong>Aproveite e verifique agora mesmo!</strong>
+        </p>
+      </div>
+    </section>
+
+    <section class="imc-calculadora">
+            <div class="calculadora">
+                <label for="altura">Altura</label>
+                <input type="number" id="altura" placeholder="Altura(M)"/> 
+                <br>
+                <br>
+                <label for="altura">Peso</label>
+                <input type="number" id="peso" placeholder="Peso(Kg)"/> 
+                <br>
+                <br>
+                <button class="calcular" onclick="calcIMC()">Calcular</button>
+                <span id="resultado"></span>
+            </div>
+    
+            <div class="imc-imagem" id="imagem">
+                <img height="350px" src="./imagens/ref_IMC.jpg">
+            </div>
+    </section>    
+    <script src="js/index.js"></script>
+  </body>
+</html>

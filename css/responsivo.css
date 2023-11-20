@@ -1,0 +1,159 @@
+@media (max-width: 769px) {
+    main::after {
+        width: 100vw;
+    }
+
+    .principal-saude {
+        display: block;
+    }
+
+    .conteudo-vida-saude {
+        width: auto;
+        text-align: center;
+        text-shadow: #283618;
+        height: 100%;
+        margin: 40px;
+        text-align: justify;
+        columns: 1;
+        font-family: "Popins", sans-serif;
+        text-indent: 2em;
+        line-height: 30px;
+    
+    }
+
+    #carrossel {
+        overflow: hidden;
+        align-items: center;
+        padding: 0px;
+        width: auto;
+    }
+
+    .principal-imc {
+        display: block;
+    }
+    
+    .conteudo-imc {
+        width: auto;
+        text-align: center;
+        text-shadow: #283618;
+        height: 100%;
+        margin: 40px;
+        text-align: justify;
+        columns: 1;
+        font-family: "Popins", sans-serif;
+        text-indent: 2em;
+        line-height: 30px;
+    }
+    
+    .imc-calculadora {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        width: 250px;
+        margin: 20px auto;   
+    }
+    
+    .calculadora {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 25px;
+        height: 240px;
+        width: auto;
+        border-radius: 5px;
+        background-color: #b9cc7c;
+        border: 1px solid #7c8c46;
+    }
+
+    #imagem.imc-imagem{
+        margin: 10px -20px;
+    }
+    
+    .principal-habitos{
+        display: block;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    }
+    
+    .conteudo-habitos{
+        width: auto;
+        text-align: center;
+        text-shadow: #283618;
+        height: 100%;
+        margin: 40px;
+        text-align: justify;
+        columns: 1;
+        font-family: "Popins", sans-serif;
+        text-indent: 2em;
+        line-height: 30px;
+    }
+
+    .imagem-centralizada {
+        margin: auto;
+    }
+
+    .principal-doencas {
+        display: block;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    }
+    
+    .conteudo-doencas{
+        width: auto;
+        text-align: center;
+        text-shadow: #283618;
+        height: 100%;
+        margin: 40px;
+        text-align: justify;
+        columns: 1;
+        font-family: "Popins", sans-serif;
+        text-indent: 2em;
+        line-height: 30px;
+    }
+
+    .principal-sono{
+        display: block;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    } 
+
+    .conteudo-sono {
+        width: auto;
+        text-align: center;
+        text-shadow: #283618;
+        height: 100%;
+        margin: 40px;
+        text-align: justify;
+        columns: 1;
+        font-family: "Popins", sans-serif;
+        text-indent: 2em;
+        line-height: 30px;
+    }
+    
+    .video-sono > iframe {
+        width: 400px;
+        height: 250px;
+        margin: 10px 40px;
+    }
+
+    .principal-info{
+        display: block;
+        align-items:center ;
+        justify-content: center;
+    }
+    
+    .conteudo-info {
+        width: auto;
+        text-align: center;
+        text-shadow: #283618;
+        margin: 50px;
+        text-align: center    ;
+        font-family: "Popins", sans-serif;
+        text-indent: 2em;
+        line-height: 30px;
+        
+    }
+}
